@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#062f4f" />
+    <meta name="description" content="CEE-OS-YRA accompagne les étudiants nigériens dans leur orientation scolaire et leur projet d'études en Russie et à l'étranger." />
+    <meta property="og:title" content="CEE-OS-YRA — Votre avenir commence par le bon choix" />
+    <meta property="og:description" content="Orientation scolaire, accompagnement des dossiers et préparation au départ, avec une approche transparente et personnalisée." />
+    <meta property="og:image" content="https://files.manuscdn.com/user_upload_by_module/session_file/310519664034331902/dugnGAaIydLkmjQJ.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="icon" href="https://files.manuscdn.com/user_upload_by_module/session_file/310519664034331902/dugnGAaIydLkmjQJ.jpg" />
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --navy: #062f4f;
+  --navy-deep: #041f37;
+  --green: #299c3a;
+  --green-bright: #49b83e;
+  --orange: #f7941d;
+  --orange-soft: #ffb345;
+  --cream: #f6f7f1;
+  --paper: #fffefa;
+  --ink: #0b2436;
+  --muted: #65727d;
+  --line: rgba(6, 47, 79, 0.14);
+  --serif: 'DM Serif Display', Georgia, serif;
+  --sans: 'Manrope', Arial, sans-serif;
+  --radius-lg: 28px;
+  --radius-md: 18px;
+  --shadow: 0 20px 70px rgba(4, 31, 55, 0.12);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: var(--ink); background: var(--paper); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+body.menu-open { overflow: hidden; }
+a { color: inherit; text-decoration: none; }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+.grain { position: fixed; inset: 0; pointer-events: none; opacity: .025; z-index: 20; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E"); }
+.container { width: min(1180px, calc(100% - 64px)); margin-inline: auto; }
+.section-pad { padding: 132px 0; }
+
+.site-header { position: sticky; top: 0; z-index: 15; background: rgba(255, 254, 250, .88); backdrop-filter: blur(18px); border-bottom: 1px solid rgba(6, 47, 79, .08); }
+.nav-wrap { min-height: 86px; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
+.brand { display: inline-flex; align-items: center; min-width: 82px; }
+.brand-logo { display: block; width: 82px; height: 68px; object-fit: contain; object-position: center; border-radius: 8px; background: white; }
+.footer-logo { width: 184px; height: 164px; object-position: center; padding: 7px; }
+.brand-mark { position: relative; width: 37px; height: 37px; border: 2px solid var(--green); border-radius: 50% 50% 46% 46%; display: block; transform: rotate(-24deg); overflow: hidden; }
+.brand-mark::before { content: ''; position: absolute; width: 30px; height: 11px; left: -3px; bottom: 7px; border-top: 2px solid var(--navy); transform: rotate(-28deg); }
+.brand-mark span { position: absolute; width: 17px; height: 8px; border-radius: 100% 0; background: var(--green); top: 5px; right: 3px; transform: rotate(25deg); }
+.brand-mark i { position: absolute; width: 2px; height: 20px; background: var(--green); left: 18px; top: 8px; transform: rotate(21deg); }
+.brand-name { display: grid; line-height: .95; letter-spacing: .08em; font-size: 17px; color: var(--navy); }
+.brand-name strong { font-weight: 800; }.brand-name b { color: var(--orange); font-weight: 800; }.brand-name small { font-size: 6px; letter-spacing: .15em; color: var(--muted); margin-top: 5px; font-weight: 700; }
+.main-nav { display: flex; align-items: center; gap: clamp(16px, 2.2vw, 32px); font-size: 12px; font-weight: 700; color: #41515d; }
+.main-nav > a:not(.nav-cta) { position: relative; padding: 10px 0; }.main-nav > a:not(.nav-cta)::after { content: ''; position: absolute; left: 0; right: 100%; bottom: 3px; height: 2px; background: var(--green); transition: right .25s ease; }.main-nav > a:not(.nav-cta):hover::after { right: 0; }
+.nav-cta { background: var(--navy); color: white; border-radius: 999px; padding: 14px 17px 14px 20px; transition: transform .25s, background .25s; }.nav-cta:hover { transform: translateY(-2px); background: var(--green); }.nav-cta span { color: var(--orange-soft); padding-left: 9px; }
+.menu-toggle { display: none; background: none; border: 0; padding: 10px; }.menu-toggle span { display: block; width: 25px; height: 2px; background: var(--navy); margin: 5px; transition: transform .2s; }
+
+.hero { position: relative; overflow: hidden; padding-top: 104px; padding-bottom: 50px; background: radial-gradient(circle at 82% 20%, rgba(41, 156, 58, .12), transparent 22%), var(--cream); }
+.hero::after { content: ''; position: absolute; width: 410px; height: 410px; border-radius: 50%; border: 1px solid rgba(41, 156, 58, .17); right: -175px; top: 130px; }
+.hero-orbit { position: absolute; border-radius: 50%; border: 1px solid rgba(6, 47, 79, .1); pointer-events: none; }.orbit-one { width: 760px; height: 760px; right: -325px; top: -370px; }.orbit-two { width: 550px; height: 550px; right: -210px; top: -255px; border-color: rgba(247, 148, 29, .2); }
+.hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr .87fr; gap: 90px; align-items: center; }
+.eyebrow, .section-kicker { display: flex; align-items: center; gap: 9px; font-size: 10px; font-weight: 800; color: var(--green); letter-spacing: .18em; text-transform: uppercase; }.eyebrow-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--orange); box-shadow: 0 0 0 5px rgba(247, 148, 29, .14); }
+.hero h1 { margin: 25px 0 22px; max-width: 670px; font-size: clamp(53px, 6.4vw, 91px); line-height: .94; letter-spacing: -.055em; color: var(--navy); font-weight: 800; }.hero h1 em, h2 em, h3 em { color: var(--green); font-family: var(--serif); font-weight: 400; letter-spacing: -.03em; }
+.hero-lead { max-width: 535px; color: #53636e; font-size: 17px; line-height: 1.75; margin: 0; }
+.hero-actions { display: flex; align-items: center; gap: 27px; flex-wrap: wrap; margin-top: 35px; }.button { display: inline-flex; align-items: center; justify-content: center; gap: 17px; border: 0; border-radius: 999px; padding: 17px 20px 17px 23px; font-size: 12px; font-weight: 800; transition: transform .25s, box-shadow .25s, background .25s; }.button span { font-size: 18px; line-height: 0; }.button-primary { color: white; background: var(--navy); box-shadow: 0 13px 28px rgba(6, 47, 79, .18); }.button-primary:hover, .button-orange:hover, .button-light:hover { transform: translateY(-3px); box-shadow: 0 16px 28px rgba(6, 47, 79, .22); }.text-link { font-size: 12px; font-weight: 800; color: var(--navy); }.text-link span { color: var(--orange); font-size: 18px; margin-left: 8px; }.hero-proof { display: flex; align-items: center; gap: 14px; margin-top: 45px; color: var(--muted); font-size: 11px; line-height: 1.5; }.hero-proof p { margin: 0; }.hero-proof strong { color: var(--navy); }.avatar-stack { display: flex; }.avatar-stack span { display: grid; place-items: center; width: 28px; height: 28px; margin-left: -5px; border: 2px solid var(--cream); border-radius: 50%; background: var(--green); color: white; font-size: 11px; }.avatar-stack span:first-child { margin-left: 0; background: var(--navy); }.avatar-stack span:last-child { background: var(--orange); }
+.hero-visual { position: relative; max-width: 472px; justify-self: end; }.hero-card { position: relative; background: white; border: 1px solid rgba(6, 47, 79, .12); border-radius: 26px; padding: 14px; box-shadow: var(--shadow); transform: rotate(2.3deg); }.hero-card-top, .hero-card-bottom { display: flex; justify-content: space-between; align-items: center; padding: 9px 6px; font-size: 8px; text-transform: uppercase; letter-spacing: .16em; color: #82909a; }.hero-card-bottom { color: var(--navy); font-size: 9px; }.hero-card-bottom strong { font-size: 12px; color: var(--green); letter-spacing: .02em; text-transform: none; }.poster-frame { overflow: hidden; border-radius: 17px; aspect-ratio: 1 / 1; background: var(--navy); }.poster-frame.natural-photo { aspect-ratio: 4 / 3; background: #eef0eb; }.poster-frame img { display: block; width: 100%; height: 100%; object-fit: cover; }.floating-note { position: absolute; left: -48px; bottom: 48px; display: flex; align-items: center; gap: 11px; padding: 13px 16px 13px 12px; background: rgba(255, 254, 250, .94); border: 1px solid rgba(6, 47, 79, .12); box-shadow: 0 18px 45px rgba(4, 31, 55, .12); border-radius: 15px; transform: rotate(-4deg); }.note-icon { width: 30px; height: 30px; display: grid; place-items: center; color: white; background: var(--orange); border-radius: 50%; }.floating-note strong, .floating-note small { display: block; }.floating-note strong { font-size: 10px; color: var(--navy); }.floating-note small { margin-top: 3px; font-size: 9px; color: var(--muted); }.hero-footer-line { display: flex; align-items: center; justify-content: center; gap: 17px; padding-top: 75px; color: var(--navy); font-size: 9px; letter-spacing: .2em; font-weight: 800; }.hero-footer-line i { display: block; width: 3px; height: 3px; border-radius: 50%; background: var(--orange); }
+
+.marquee-section { overflow: hidden; background: var(--green); color: white; padding: 15px 0; }.marquee-track { display: flex; justify-content: center; align-items: center; gap: 25px; white-space: nowrap; font-size: 12px; font-weight: 800; letter-spacing: .22em; }.marquee-track b { color: var(--orange-soft); font-size: 16px; }.marquee-icon { display: grid; place-items: center; width: 27px; height: 27px; border: 1px solid rgba(255,255,255,.5); border-radius: 9px; background: rgba(6,47,79,.14); box-shadow: inset 0 0 0 3px rgba(255,255,255,.06); animation: premiumIconFloat 3.8s ease-in-out infinite; }.marquee-icon:nth-of-type(3n + 2) { animation-delay: -.9s; }.marquee-icon:nth-of-type(3n) { animation-delay: -1.8s; }.marquee-icon svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }.marquee-icon:nth-of-type(3n + 2) svg { animation: premiumIconLeaf 5.5s ease-in-out infinite; }.marquee-icon:nth-of-type(3n) svg { animation: premiumIconPath 4.5s ease-in-out infinite; }
+@keyframes premiumIconFloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+@keyframes premiumIconLeaf { 0%, 100% { transform: rotate(-4deg); } 50% { transform: rotate(4deg) scale(1.06); } }
+@keyframes premiumIconPath { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(2px); } }
+.problem { background: var(--paper); }.split-heading, .solution-head { display: grid; grid-template-columns: 1fr 2.2fr; gap: 60px; align-items: start; }.section-kicker { margin-top: 12px; }.section-kicker::before { content: ''; width: 23px; height: 2px; background: var(--orange); }.section-kicker.light { color: var(--orange-soft); }.section-kicker.light::before { background: var(--green-bright); }h2 { margin: 0; color: var(--navy); font-size: clamp(40px, 5vw, 68px); line-height: .98; letter-spacing: -.05em; font-weight: 800; }h2 em { color: var(--green); }.section-intro { max-width: 570px; margin: 25px 0 0; color: var(--muted); line-height: 1.8; font-size: 15px; }.diagnostic-grid { display: grid; grid-template-columns: .86fr 1.14fr; gap: 70px; margin-top: 76px; }.dark-panel { position: relative; overflow: hidden; min-height: 400px; padding: 32px; border-radius: var(--radius-lg); background: var(--navy); color: white; }.dark-panel::after { content: ''; position: absolute; width: 300px; height: 300px; border: 1px solid rgba(73, 184, 62, .3); border-radius: 50%; right: -110px; bottom: -100px; }.panel-label { color: var(--orange-soft); font-size: 9px; letter-spacing: .18em; font-weight: 800; }.pulse-mark { display: flex; gap: 7px; margin: 55px 0 27px; }.pulse-mark span { display: block; width: 9px; height: 38px; border-radius: 10px; background: var(--green-bright); }.pulse-mark span:nth-child(2) { height: 62px; background: var(--orange); margin-top: -12px; }.pulse-mark span:nth-child(3) { height: 23px; margin-top: 15px; }.dark-panel h3 { max-width: 390px; margin: 0; font-size: 30px; line-height: 1.1; letter-spacing: -.04em; }.dark-panel p { max-width: 390px; margin: 20px 0 38px; color: rgba(255,255,255,.65); font-size: 13px; line-height: 1.7; }.line-link { position: relative; z-index: 1; color: var(--orange-soft); font-size: 11px; font-weight: 800; }.line-link span { padding-left: 10px; font-size: 16px; }.pain-list { display: flex; flex-direction: column; }.pain-item { display: grid; grid-template-columns: 43px 1fr 22px; gap: 18px; align-items: start; padding: 27px 0; border-top: 1px solid var(--line); }.pain-item:last-child { border-bottom: 1px solid var(--line); }.pain-number { color: var(--orange); font-size: 11px; font-weight: 800; }.pain-item h3 { margin: 0 0 9px; font-size: 19px; letter-spacing: -.04em; color: var(--navy); }.pain-item p { margin: 0; color: var(--muted); line-height: 1.6; font-size: 13px; }.pain-arrow { color: var(--green); font-size: 19px; transition: transform .25s; }.pain-item:hover .pain-arrow { transform: translate(4px, -4px); }
+
+.solution { background: var(--cream); }.service-grid { display: grid; grid-template-columns: 1.15fr 1fr 1fr; gap: 16px; margin-top: 75px; }.service-card { min-height: 408px; padding: 28px; border-radius: var(--radius-md); background: white; border: 1px solid rgba(6,47,79,.09); display: flex; flex-direction: column; transition: transform .3s, box-shadow .3s; }.service-card:hover { transform: translateY(-7px); box-shadow: var(--shadow); }.service-feature { color: white; background: var(--green); }.service-top { display: flex; align-items: center; justify-content: space-between; }.service-index { font-size: 9px; letter-spacing: .15em; font-weight: 800; color: var(--orange); }.service-feature .service-index { color: var(--orange-soft); }.service-icon { display: grid; place-items: center; width: 50px; height: 50px; border-radius: 15px; background: rgba(6,47,79,.08); color: var(--navy); }.service-icon svg { width: 28px; height: 28px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }.service-feature .service-icon { color: var(--green); background: white; }.service-card h3 { margin: 75px 0 17px; font-size: 33px; line-height: 1; letter-spacing: -.05em; color: var(--navy); }.service-feature h3 { color: white; }.service-card h3 em { color: var(--green); }.service-feature h3 em { color: var(--navy); }.service-card p { max-width: 270px; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.7; }.service-feature p { color: rgba(255,255,255,.76); }.service-card a { margin-top: auto; padding-top: 29px; color: var(--navy); font-size: 11px; font-weight: 800; }.service-feature a { color: white; }.service-card a span { color: var(--orange); font-size: 17px; padding-left: 9px; }
+
+.method { background: var(--navy); color: white; }.method-layout { display: grid; grid-template-columns: .9fr 1.1fr; gap: 100px; }.method h2 { color: white; margin-top: 22px; }.method h2 em { color: var(--green-bright); }.method-intro > p { max-width: 390px; color: rgba(255,255,255,.66); line-height: 1.8; font-size: 14px; margin: 28px 0 34px; }.button-light { background: white; color: var(--navy); }.steps { padding-top: 15px; }.step { position: relative; display: grid; grid-template-columns: 55px 1fr; gap: 23px; padding: 25px 0 31px; border-top: 1px solid rgba(255,255,255,.16); }.step:last-child { border-bottom: 1px solid rgba(255,255,255,.16); }.step-count { color: var(--orange-soft); font-size: 11px; font-weight: 800; padding-top: 3px; }.step h3 { margin: 0 0 7px; color: white; font-size: 20px; letter-spacing: -.03em; }.step p { margin: 0; color: rgba(255,255,255,.55); font-size: 13px; line-height: 1.6; }.step.active h3 { color: var(--green-bright); }.step-line { position: absolute; width: 2px; height: 0; left: 0; top: 0; background: var(--orange); transition: height .5s; }.step.active .step-line { height: 100%; }
+
+.trust { background: var(--paper); }.trust-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: end; }.trust-copy { border-left: 2px solid var(--orange); padding-left: 28px; }.trust-copy p { max-width: 460px; color: var(--muted); font-size: 15px; line-height: 1.8; margin: 0 0 25px; }.trust-tags { display: flex; gap: 7px; flex-wrap: wrap; }.trust-tags span { border: 1px solid var(--line); border-radius: 999px; padding: 9px 12px; color: var(--navy); font-size: 9px; font-weight: 800; }.trust-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 70px; }.trust-card { min-height: 214px; padding: 24px; border: 1px solid var(--line); border-radius: var(--radius-md); }.trust-card.featured { border-color: var(--green); background: var(--green); color: white; }.trust-card span { display: block; margin-bottom: 56px; color: var(--orange); font-size: 10px; font-weight: 800; }.trust-card strong { display: block; margin-bottom: 10px; font-size: 16px; letter-spacing: -.03em; }.trust-card p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.6; }.trust-card.featured p { color: rgba(255,255,255,.77); }.trust-card.featured span { color: var(--navy); }
+.quote-section { background: var(--orange); }.quote-wrap { display: grid; grid-template-columns: 100px 1fr 200px; align-items: center; gap: 30px; padding-top: 88px; padding-bottom: 88px; }.quote-mark { font-family: var(--serif); font-size: 130px; line-height: .6; color: var(--navy); }.quote-wrap blockquote { max-width: 750px; margin: 0; color: var(--navy); font-family: var(--serif); font-size: clamp(28px, 4vw, 53px); line-height: 1.02; letter-spacing: -.035em; }.quote-sign { display: flex; gap: 12px; align-items: center; }.quote-sign > span { width: 30px; height: 2px; background: var(--green); }.quote-sign p { margin: 0; color: var(--navy); font-size: 10px; font-weight: 800; line-height: 1.5; letter-spacing: .1em; }.quote-sign small { font-size: 8px; letter-spacing: 0; font-weight: 600; }
+
+.faq { background: var(--cream); }.faq-grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 100px; }.faq-list { border-top: 1px solid var(--line); }.faq-list details { border-bottom: 1px solid var(--line); }.faq-list summary { display: flex; justify-content: space-between; gap: 20px; align-items: center; padding: 23px 0; color: var(--navy); font-size: 14px; font-weight: 800; cursor: pointer; list-style: none; }.faq-list summary::-webkit-details-marker { display: none; }.faq-list summary span { color: var(--green); font-size: 22px; font-weight: 400; transition: transform .2s; }.faq-list details[open] summary span { transform: rotate(45deg); }.faq-list details p { max-width: 550px; margin: -5px 36px 23px 0; color: var(--muted); font-size: 13px; line-height: 1.7; }.dark-link { display: inline-block; margin-top: 28px; }
+
+.contact-section { background: var(--cream); padding: 0 0 120px; }.contact-card { display: grid; grid-template-columns: 1fr .9fr; gap: 80px; padding: 64px; border-radius: var(--radius-lg); background: var(--navy); color: white; overflow: hidden; position: relative; }.contact-card::after { content: ''; position: absolute; right: -150px; bottom: -280px; width: 540px; height: 540px; border: 1px solid rgba(73,184,62,.28); border-radius: 50%; }.contact-copy { position: relative; z-index: 1; }.contact-copy h2 { margin-top: 25px; color: white; }.contact-copy h2 em { color: var(--green-bright); }.contact-copy > p { max-width: 450px; margin: 27px 0 34px; color: rgba(255,255,255,.65); font-size: 14px; line-height: 1.8; }.contact-direct span { display: block; margin-bottom: 7px; color: var(--orange-soft); font-size: 9px; letter-spacing: .16em; text-transform: uppercase; font-weight: 800; }.contact-direct a { color: white; font-size: 19px; font-weight: 700; }.contact-form { position: relative; z-index: 1; display: grid; gap: 15px; padding: 27px; border-radius: var(--radius-md); background: white; color: var(--navy); }.contact-form label { display: grid; gap: 7px; color: var(--navy); font-size: 10px; font-weight: 800; }.contact-form input, .contact-form select, .contact-form textarea { width: 100%; border: 1px solid var(--line); border-radius: 10px; padding: 13px; color: var(--navy); background: #fbfcf8; outline: none; font-size: 12px; resize: vertical; }.contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus { border-color: var(--green); box-shadow: 0 0 0 3px rgba(41,156,58,.11); }.button-orange { width: 100%; background: var(--orange); color: var(--navy); margin-top: 4px; }.form-note { margin: 0; color: var(--muted); font-size: 9px; line-height: 1.4; text-align: center; }
+
+.site-footer { background: var(--navy-deep); padding: 73px 0 25px; color: white; }.footer-grid { display: grid; grid-template-columns: 1.5fr .75fr 1fr .85fr; gap: 45px; }.site-footer .brand-name { color: white; }.site-footer .brand-name small { color: rgba(255,255,255,.5); }.footer-brand p { max-width: 230px; color: rgba(255,255,255,.53); font-size: 12px; line-height: 1.7; margin: 24px 0 0; }.footer-grid > div:not(.footer-brand) { display: flex; flex-direction: column; gap: 12px; font-size: 11px; }.footer-grid > div:not(.footer-brand) a { color: rgba(255,255,255,.6); transition: color .2s; }.footer-grid > div:not(.footer-brand) a:hover { color: var(--orange-soft); }.footer-label { color: var(--orange-soft); font-size: 9px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; margin-bottom: 9px; }.footer-cta { color: white !important; font-size: 14px; font-weight: 800; }.footer-cta span { color: var(--orange-soft); padding-left: 8px; }.footer-bottom { display: flex; justify-content: space-between; gap: 25px; border-top: 1px solid rgba(255,255,255,.12); margin-top: 62px; padding-top: 20px; color: rgba(255,255,255,.37); font-size: 9px; letter-spacing: .08em; text-transform: uppercase; }
+
+.reveal { opacity: 0; transform: translateY(20px); transition: opacity .75s ease, transform .75s ease; }.reveal.visible { opacity: 1; transform: translateY(0); }.delay-one { transition-delay: .12s; }.delay-two { transition-delay: .22s; }
+
+@media (max-width: 980px) { .container { width: min(100% - 40px, 720px); }.main-nav { gap: 15px; }.main-nav > a:not(.nav-cta) { display: none; }.hero-grid { grid-template-columns: 1fr .8fr; gap: 45px; }.hero h1 { font-size: clamp(47px, 7vw, 72px); }.diagnostic-grid, .method-layout, .faq-grid { gap: 40px; }.footer-grid { grid-template-columns: 1.3fr 1fr 1fr; }.footer-last { grid-column: 2 / -1; }.quote-wrap { grid-template-columns: 65px 1fr; }.quote-sign { grid-column: 2; }.contact-card { gap: 40px; padding: 45px; } }
+@media (max-width: 700px) { .container { width: min(100% - 36px, 540px); }.section-pad { padding: 86px 0; }.nav-wrap { min-height: 74px; }.brand-logo { width: 70px; height: 60px; }.footer-logo { width: 165px; height: 148px; }.menu-toggle { display: block; z-index: 22; }.main-nav { position: fixed; inset: 74px 0 0; display: flex; flex-direction: column; align-items: stretch; gap: 0; padding: 30px 24px; background: var(--paper); transform: translateX(100%); transition: transform .3s ease; box-shadow: -15px 0 40px rgba(4,31,55,.1); }.main-nav.open { transform: translateX(0); }.main-nav > a:not(.nav-cta) { display: block; border-bottom: 1px solid var(--line); padding: 19px 0; font-size: 15px; }.nav-cta { margin-top: 25px; text-align: center; }.hero { padding-top: 75px; }.hero-grid, .split-heading, .solution-head, .diagnostic-grid, .service-grid, .method-layout, .trust-grid, .faq-grid, .contact-card { grid-template-columns: 1fr; }.hero-copy { order: 1; }.hero-visual { order: 2; justify-self: center; width: min(100%, 420px); margin-top: 25px; }.hero h1 { font-size: clamp(48px, 13vw, 68px); }.hero-lead { font-size: 15px; }.hero-footer-line { flex-wrap: wrap; gap: 10px; padding-top: 45px; line-height: 1.6; }.hero-footer-line i { display: none; }.split-heading, .solution-head { gap: 24px; }.diagnostic-grid, .service-grid, .trust-cards { margin-top: 45px; }.dark-panel { min-height: 365px; }.service-card { min-height: 350px; }.service-card h3 { margin-top: 52px; }.method-layout { gap: 55px; }.steps { padding-top: 0; }.trust-cards { grid-template-columns: 1fr; }.trust-card { min-height: 170px; }.trust-card span { margin-bottom: 30px; }.quote-wrap { grid-template-columns: 1fr; gap: 14px; padding-top: 70px; padding-bottom: 70px; }.quote-mark { font-size: 90px; }.quote-sign { grid-column: auto; }.contact-section { padding-bottom: 86px; }.contact-card { padding: 32px 22px; gap: 45px; }.footer-grid { grid-template-columns: 1fr 1fr; gap: 35px 18px; }.footer-brand, .footer-last { grid-column: 1 / -1; }.footer-bottom { flex-direction: column; gap: 11px; line-height: 1.5; }.floating-note { left: -5px; bottom: 48px; }.brand { min-width: 0; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; }.reveal { opacity: 1; transform: none; transition: none; }.button, .service-card, .pain-arrow { transition: none; } }
+
+</style>
+    <title>CEE-OS-YRA — Votre avenir commence par le bon choix</title>
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="CEE-OS-YRA, retour à l'accueil">
+          <img class="brand-logo" src="https://files.manuscdn.com/user_upload_by_module/session_file/310519664034331902/dugnGAaIydLkmjQJ.jpg" alt="CEE-OS-YRA — Cabinet d’étude énergétique et d’orientation scolaire" />
+        </a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu">
+          <span></span><span></span>
+        </button>
+        <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+          <a href="#probleme">Le constat</a>
+          <a href="#solutions">Nos solutions</a>
+          <a href="#methode">Notre méthode</a>
+          <a href="#faq">FAQ</a>
+          <a class="nav-cta" href="https://wa.me/22799391501?text=Bonjour%20CEE-OS-YRA%2C%20je%20souhaite%20parler%20de%20mon%20projet%20d%27%C3%A9tudes." target="_blank" rel="noreferrer">Parler à un conseiller <span>↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-pad">
+        <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+        <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow"><span class="eyebrow-dot"></span> Cabinet nigérien • Études en Russie</div>
+            <h1>Votre avenir ne se devine pas.<em> Il se construit.</em></h1>
+            <p class="hero-lead">Vous avez le potentiel. Nous vous aidons à transformer les questions, les doutes et les démarches en un projet d’études clair, réaliste et bien accompagné.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="https://wa.me/22799391501?text=Bonjour%20CEE-OS-YRA%2C%20je%20souhaite%20faire%20le%20point%20sur%20mon%20projet%20d%27%C3%A9tudes." target="_blank" rel="noreferrer">Faire le point sur mon projet <span>↗</span></a>
+              <a class="text-link" href="#methode">Découvrir notre méthode <span>↓</span></a>
+            </div>
+            <div class="hero-proof">
+              <div class="avatar-stack" aria-hidden="true"><span>✓</span><span>✓</span><span>✓</span></div>
+              <p><strong>Une approche humaine,</strong><br />pensée pour les étudiants nigériens.</p>
+            </div>
+          </div>
+          <div class="hero-visual reveal delay-one">
+            <div class="hero-card">
+              <div class="hero-card-top"><span>CEE-OS-YRA / 01</span><span>Une présence réelle</span></div>
+              <div class="poster-frame natural-photo"><img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519664034331902/ZJllgHOiqFpQRzff.jpg" alt="Le Directeur Général de CEE-OS-YRA lors d’une rencontre de travail en Russie" /></div>
+              <div class="hero-card-bottom"><span>Une équipe engagée</span><strong>sur le terrain.</strong></div>
+            </div>
+            <div class="floating-note"><span class="note-icon">↗</span><div><strong>Votre prochain pas</strong><small>Commence par une conversation.</small></div></div>
+          </div>
+        </div>
+        <div class="container hero-footer-line"><span>ORIENTATION SCOLAIRE</span><i></i><span>ACCOMPAGNEMENT</span><i></i><span>ÉTUDES À L’ÉTRANGER</span><i></i><span>RÉUSSITE</span></div>
+      </section>
+
+      <section class="marquee-section" aria-label="Principes CEE-OS-YRA">
+        <div class="marquee-track">
+          <span>APPRENDRE</span>
+          <b class="marquee-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M16 4v24M4 16h24M7.5 7.5l17 17M24.5 7.5l-17 17"/><circle cx="16" cy="16" r="4"/></svg></b>
+          <span>ÉVOLUER</span>
+          <b class="marquee-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M6 24c5-8 10-12 20-16-2 10-7 15-16 17"/><path d="M8 24c4-5 7-9 11-13"/></svg></b>
+          <span>RÉUSSIR</span>
+          <b class="marquee-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 22c7 0 11-4 14-12"/><path d="m15 7 4 3 4-1"/><path d="M6 26h20"/></svg></b>
+          <span>APPRENDRE</span>
+          <b class="marquee-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M16 4v24M4 16h24M7.5 7.5l17 17M24.5 7.5l-17 17"/><circle cx="16" cy="16" r="4"/></svg></b>
+          <span>ÉVOLUER</span>
+          <b class="marquee-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M6 24c5-8 10-12 20-16-2 10-7 15-16 17"/><path d="M8 24c4-5 7-9 11-13"/></svg></b>
+          <span>RÉUSSIR</span>
+          <b class="marquee-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 22c7 0 11-4 14-12"/><path d="m15 7 4 3 4-1"/><path d="M6 26h20"/></svg></b>
+        </div>
+      </section>
+
+      <section class="problem section-pad" id="probleme">
+        <div class="container split-heading">
+          <div class="section-kicker">01 / Le constat</div>
+          <div><h2>Le plus difficile n’est pas toujours de partir.<br /><em>C’est de savoir par où commencer.</em></h2><p class="section-intro">Entre les informations contradictoires, le choix d’une filière, les documents et les inquiétudes de la famille, un projet d’études peut vite sembler plus grand que soi.</p></div>
+        </div>
+        <div class="container diagnostic-grid">
+          <div class="diagnostic-panel dark-panel reveal"><div class="panel-label">DIAGNOSTIC / 001</div><div class="pulse-mark"><span></span><span></span><span></span></div><h3>On vous demande de choisir votre avenir, sans toujours vous donner la carte.</h3><p>Nous connaissons ces moments de doute. Vous n’avez pas besoin de plus de bruit. Vous avez besoin d’une lecture claire de votre situation et d’un plan adapté.</p><a class="line-link" href="#solutions">Voir comment nous aidons <span>↗</span></a></div>
+          <div class="pain-list reveal delay-one">
+            <article class="pain-item"><span class="pain-number">01</span><div><h3>« Quelle filière est faite pour moi ? »</h3><p>Un choix important ne devrait pas dépendre d’une tendance ou du parcours d’un ami.</p></div><span class="pain-arrow">↗</span></article>
+            <article class="pain-item"><span class="pain-number">02</span><div><h3>« Est-ce que mon dossier est vraiment prêt ? »</h3><p>Une pièce manquante ou une information mal vérifiée peut ralentir toute une candidature.</p></div><span class="pain-arrow">↗</span></article>
+            <article class="pain-item"><span class="pain-number">03</span><div><h3>« Comment rassurer ma famille ? »</h3><p>Un départ serein commence par des informations honnêtes sur le budget, le logement et les étapes.</p></div><span class="pain-arrow">↗</span></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="solution section-pad" id="solutions">
+        <div class="container solution-head"><div class="section-kicker">02 / La solution</div><div><h2>Pas de promesse magique.<br /><em>Un accompagnement qui fait avancer.</em></h2><p class="section-intro">CEE-OS-YRA vous aide à passer du « je ne sais pas » à « je sais quelle est ma prochaine étape ».</p></div></div>
+        <div class="container service-grid">
+          <article class="service-card service-feature reveal"><div class="service-top"><span class="service-index">A / 01</span><span class="service-icon" aria-label="Icône orientation scolaire"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 19 24 9l17 10-17 10L7 19Z"/><path d="M14 23v8c5 4 15 4 20 0v-8"/><path d="M41 20v11"/><circle cx="41" cy="34" r="2" fill="currentColor" stroke="none"/></svg></span></div><h3>Orientation<br /><em>sur mesure.</em></h3><p>Nous partons de votre niveau, de vos intérêts et de votre projet — pas d’un catalogue générique.</p><a href="https://wa.me/22799391501?text=Bonjour%20CEE-OS-YRA%2C%20je%20souhaite%20un%20bilan%20d%27orientation." target="_blank" rel="noreferrer">Faire mon bilan <span>↗</span></a></article>
+          <article class="service-card reveal delay-one"><div class="service-top"><span class="service-index">A / 02</span><span class="service-icon" aria-label="Icône dossier vérifié"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M13 5h16l7 7v31H13z"/><path d="M29 5v8h7"/><path d="m19 29 4 4 8-9"/><path d="M19 19h7"/></svg></span></div><h3>Un dossier<br /><em>bien préparé.</em></h3><p>Documents, calendrier, vérifications : chaque étape devient visible et compréhensible.</p><a href="https://wa.me/22799391501?text=Bonjour%20CEE-OS-YRA%2C%20je%20souhaite%20%C3%AAtre%20accompagn%C3%A9%20pour%20mon%20dossier." target="_blank" rel="noreferrer">Préparer mon dossier <span>↗</span></a></article>
+          <article class="service-card reveal delay-two"><div class="service-top"><span class="service-index">A / 03</span><span class="service-icon" aria-label="Icône accompagnement international"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="17"/><path d="M7 24h34M24 7c5 5 7 11 7 17s-2 12-7 17c-5-5-7-11-7-17s2-12 7-17ZM12 13c7 4 17 4 24 0M12 35c7-4 17-4 24 0"/><path d="m34 7 7 2-3 6"/></svg></span></div><h3>La réalité<br /><em>du terrain.</em></h3><p>Notre expérience d’étudiants nigériens en Russie vous aide à mieux préparer l’arrivée et l’adaptation.</p><a href="https://wa.me/22799391501?text=Bonjour%20CEE-OS-YRA%2C%20je%20veux%20en%20savoir%20plus%20sur%20la%20vie%20%C3%A9tudiante%20en%20Russie." target="_blank" rel="noreferrer">Parler de la Russie <span>↗</span></a></article>
+        </div>
+      </section>
+
+      <section class="method section-pad" id="methode">
+        <div class="container method-layout"><div class="method-intro"><div class="section-kicker light">03 / Notre méthode</div><h2>Une trajectoire claire.<br /><em>Un pas après l’autre.</em></h2><p>Nous ne choisissons pas à votre place. Nous vous donnons les informations, les repères et le suivi pour choisir avec confiance.</p><a class="button button-light" href="https://wa.me/22799391501?text=Bonjour%20CEE-OS-YRA%2C%20je%20souhaite%20construire%20ma%20trajectoire%20d%27%C3%A9tudes." target="_blank" rel="noreferrer">Construire ma trajectoire <span>↗</span></a></div><div class="steps"><div class="step active"><span class="step-line"></span><span class="step-count">01</span><div><h3>Comprendre votre profil</h3><p>Votre niveau, vos envies, vos forces et vos contraintes.</p></div></div><div class="step"><span class="step-line"></span><span class="step-count">02</span><div><h3>Choisir une direction</h3><p>Filière, pays, établissement : nous comparons les options.</p></div></div><div class="step"><span class="step-line"></span><span class="step-count">03</span><div><h3>Préparer les démarches</h3><p>Documents, calendrier et informations à vérifier.</p></div></div><div class="step"><span class="step-line"></span><span class="step-count">04</span><div><h3>Rester à vos côtés</h3><p>Préparation au départ, installation et suivi humain.</p></div></div></div></div>
+      </section>
+
+      <section class="trust section-pad">
+        <div class="container trust-grid"><div><div class="section-kicker">04 / Pourquoi nous</div><h2>Une présence réelle.<br /><em>Une parole responsable.</em></h2></div><div class="trust-copy"><p>Nous savons ce que représente un projet d’études à l’étranger pour un étudiant et pour une famille. C’est pourquoi nous privilégions la proximité, la clarté et la vérification.</p><div class="trust-tags"><span>Expérience vécue</span><span>Information transparente</span><span>Suivi personnalisé</span></div></div></div>
+        <div class="container trust-cards"><article class="trust-card"><span>01</span><strong>Nous sommes sur le terrain</strong><p>Notre équipe connaît la réalité de la vie étudiante en Russie.</p></article><article class="trust-card featured"><span>02</span><strong>Nous expliquons les limites</strong><p>Aucune admission ni aucun visa n’est garanti par un cabinet. Nous vous aidons à mieux préparer votre démarche.</p></article><article class="trust-card"><span>03</span><strong>Nous pensons long terme</strong><p>Le bon accompagnement ne s’arrête pas au premier formulaire.</p></article></div>
+      </section>
+
+      <section class="quote-section">
+        <div class="container quote-wrap"><div class="quote-mark">“</div><blockquote>Le bon choix ne commence pas par une destination. Il commence par une meilleure compréhension de soi.</blockquote><div class="quote-sign"><span></span><p>CEE-OS-YRA<br /><small>Votre avenir commence par le bon choix.</small></p></div></div>
+      </section>
+
+      <section class="faq section-pad" id="faq">
+        <div class="container faq-grid"><div><div class="section-kicker">05 / Questions fréquentes</div><h2>Les questions que vous avez.<br /><em>Les réponses que vous méritez.</em></h2><p class="section-intro">Vous avez encore un doute ? Écrivez-nous directement. Une conversation suffit souvent à clarifier la suite.</p><a class="text-link dark-link" href="https://wa.me/22799391501?text=Bonjour%20CEE-OS-YRA%2C%20j%27ai%20une%20question%20sur%20mon%20projet%20d%27%C3%A9tudes." target="_blank" rel="noreferrer">Poser ma question <span>↗</span></a></div><div class="faq-list"><details open><summary>Est-ce que vous garantissez une admission ou un visa ? <span>+</span></summary><p>Non. La décision finale appartient à l’université et aux autorités compétentes. Nous vous aidons à comprendre les exigences, préparer les documents et suivre les étapes avec transparence.</p></details><details><summary>À qui s’adresse votre accompagnement ? <span>+</span></summary><p>Aux élèves, étudiants et diplômés qui souhaitent clarifier leur orientation ou préparer un projet d’études en Russie et à l’étranger.</p></details><details><summary>Que comprend le premier échange ? <span>+</span></summary><p>Nous écoutons votre situation, votre niveau, vos objectifs et vos questions. Nous vous indiquons ensuite les prochaines informations à réunir et les options à étudier.</p></details><details><summary>Est-ce que vous accompagnez les parents ? <span>+</span></summary><p>Oui. Les parents peuvent poser leurs questions sur le budget, le logement, la préparation du départ et le suivi, afin de prendre une décision familiale mieux informée.</p></details></div></div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="container contact-card"><div class="contact-copy"><div class="section-kicker light">06 / Le prochain pas</div><h2>Votre projet mérite<br /><em>une vraie conversation.</em></h2><p>Parlez-nous de votre situation. Nous vous répondrons avec clarté, sans pression et sans promesse irréaliste.</p><div class="contact-direct"><span>WhatsApp direct</span><a href="https://wa.me/22799391501" target="_blank" rel="noreferrer">+227 99 39 15 01 ↗</a></div></div><form class="contact-form" id="contact-form"><label>Votre nom<input name="name" type="text" placeholder="Ex. Halima Abdou" required /></label><label>Votre situation<select name="level" required><option value="">Sélectionner</option><option>Élève / futur bachelier</option><option>Étudiant</option><option>Diplômé</option><option>Parent</option></select></label><label>Votre projet<textarea name="message" rows="3" placeholder="La filière, le pays ou la question qui vous amène..." required></textarea></label><button class="button button-orange" type="submit">Envoyer ma demande <span>↗</span></button><p class="form-note">Votre demande ouvrira une conversation WhatsApp avec notre équipe.</p></form></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a class="brand" href="#top"><img class="brand-logo footer-logo" src="https://files.manuscdn.com/user_upload_by_module/session_file/310519664034331902/dugnGAaIydLkmjQJ.jpg" alt="CEE-OS-YRA — Cabinet d’étude énergétique et d’orientation scolaire" /></a><p>Le pont entre les talents du Niger et les opportunités de formation.</p></div><div><span class="footer-label">Explorer</span><a href="#probleme">Le constat</a><a href="#solutions">Nos solutions</a><a href="#methode">Notre méthode</a><a href="#faq">FAQ</a></div><div><span class="footer-label">Contact</span><a href="mailto:halilousani4@gmail.com">halilousani4@gmail.com</a><a href="tel:+22799391501">+227 99 39 15 01</a><a href="tel:+79015130144">+7 901 513 0144</a></div><div class="footer-last"><span class="footer-label">Commencer</span><a class="footer-cta" href="https://wa.me/22799391501?text=Bonjour%20CEE-OS-YRA%2C%20je%20souhaite%20commencer%20mon%20projet%20d%27%C3%A9tudes." target="_blank" rel="noreferrer">Parler à l’équipe <span>↗</span></a></div></div><div class="container footer-bottom"><span>© 2026 CEE-OS-YRA. Tous droits réservés.</span><span>Études • Énergie • Orientation • Avenir</span></div></footer>
+    <script>
+const menuToggle = document.querySelector('.menu-toggle');
+const mainNav = document.querySelector('.main-nav');
+
+menuToggle?.addEventListener('click', () => {
+  const isOpen = mainNav.classList.toggle('open');
+  menuToggle.setAttribute('aria-expanded', String(isOpen));
+  document.body.classList.toggle('menu-open', isOpen);
+});
+
+document.querySelectorAll('.main-nav a').forEach((link) => {
+  link.addEventListener('click', () => {
+    mainNav.classList.remove('open');
+    menuToggle?.setAttribute('aria-expanded', 'false');
+    document.body.classList.remove('menu-open');
+  });
+});
+
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12 });
+
+document.querySelectorAll('.reveal').forEach((element) => revealObserver.observe(element));
+
+const form = document.querySelector('#contact-form');
+form?.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const data = new FormData(form);
+  const name = data.get('name');
+  const level = data.get('level');
+  const message = data.get('message');
+  const text = `Bonjour CEE-OS-YRA, je m'appelle ${name}. Je suis ${level}. Voici mon projet ou ma question : ${message}`;
+  window.open(`https://wa.me/22799391501?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer');
+});
+
+document.querySelectorAll('.step').forEach((step) => {
+  step.addEventListener('mouseenter', () => {
+    document.querySelectorAll('.step').forEach((item) => item.classList.remove('active'));
+    step.classList.add('active');
+  });
+});
+
+</script>
+  </body>
+</html>
